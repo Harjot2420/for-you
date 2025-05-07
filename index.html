@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moonflower Comfort 🌙</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="moon"></div>
+        <div class="stars"></div>
+        
+        <header class="header">
+            <h1>For My Beautiful Moonflower 🌙</h1>
+            <p class="subtitle">A cozy digital hug for your special days</p>
+        </header>
+        
+        <main class="main-content">
+            <div class="love-letter">
+                <button class="btn-open-letter">Open My Love Letter 💌</button>
+                <div class="letter-content hidden">
+                    <p>My Dearest,</p>
+                    <p>I know these days can be tough, but remember you're the strongest person I know.</p>
+                    <p>You shine even when you don't feel like it, and that's what makes you magical.</p>
+                    <p>Here's a little space just for you - to rest, to smile, to feel loved.</p>
+                    <p>Forever yours,</p>
+                    <p>Me ❤️</p>
+                </div>
+            </div>
+            
+            <div class="comfort-options">
+                <h2>What do you need today?</h2>
+                
+                <div class="options-grid">
+                    <div class="option" id="hugs">
+                        <div class="option-icon">🤗</div>
+                        <h3>Virtual Hugs</h3>
+                    </div>
+                    
+                    <div class="option" id="tips">
+                        <div class="option-icon">💡</div>
+                        <h3>Comfort Tips</h3>
+                    </div>
+                    
+                    <div class="option" id="distract">
+                        <div class="option-icon">🎨</div>
+                        <h3>Play Time</h3>
+                    </div>
+                    
+                    <div class="option" id="mood">
+                        <div class="option-icon">🌈</div>
+                        <h3>Mood Boost</h3>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="interactive hidden" id="hugs-content">
+                <h3>Hugs Delivery Station</h3>
+                <p>Click the button for a fresh hug!</p>
+                <button class="btn-hug">Send Hug 🤗</button>
+                <div class="hug-counter">Hugs sent today: <span>0</span></div>
+                <div class="hug-animation"></div>
+            </div>
+            
+            <div class="interactive hidden" id="tips-content">
+                <h3>Cozy Comfort Tips</h3>
+                <ul class="tips-list">
+                    <li>💖 Warm tea with honey</li>
+                    <li>💖 Gentle stretching</li>
+                    <li>💖 Heating pad cuddles</li>
+                    <li>💖 Your favorite blanket</li>
+                    <li>💖 Dark chocolate (70% or more)</li>
+                </ul>
+                <button class="btn-more-tips">More Tips ✨</button>
+            </div>
+            
+            <div class="interactive hidden" id="distract-content">
+                <h3>Playful Distractions</h3>
+                <div class="doodle-canvas"></div>
+                <p>Draw something to distract yourself!</p>
+                <button class="btn-clear-doodle">Start Over</button>
+            </div>
+            
+            <div class="interactive hidden" id="mood-content">
+                <h3>Mood Lifters</h3>
+                <div class="mood-grid">
+                    <div class="mood-option" data-mood="happy">😊 Happy</div>
+                    <div class="mood-option" data-mood="silly">🤪 Silly</div>
+                    <div class="mood-option" data-mood="calm">🧘 Calm</div>
+                    <div class="mood-option" data-mood="loved">💝 Loved</div>
+                </div>
+                <div class="mood-result"></div>
+            </div>
+        </main>
+        
+        <footer class="footer">
+            <p>Made with infinite love for you</p>
+            <div class="hearts-animation"></div>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
